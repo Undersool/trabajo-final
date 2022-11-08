@@ -1,0 +1,118 @@
+body{
+  margin: auto;
+  width: 900px;
+  background-image: url(images/fondo.gif);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#banner header{
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-90%, 10%);
+    font-size: large;
+}
+#banner p{
+    color: rgb(209, 187, 146);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-90%, -5%);
+}
+#banner{
+    float: right;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;   
+}
+#banner img{
+    width: 100%;
+}
+header h1{
+    color:#8f6c2c;
+    text-shadow:3px 3px #61481a;
+    font-size: 50px;
+    margin: 0px;
+}  
+nav a{
+    text-decoration: none; 
+    color: #aca597;
+    padding: 5px 55px 5px 55px;
+    display: block;
+    float: left;     
+}
+nav a:link{
+    color: #ff6ebf;
+}
+nav a:hover{
+    color: #cad0e2;
+    background-color: #df9029;
+}
+nav{
+    margin: 25px 10px 0px 0px;
+    float: left;
+    background-color: #47320a;
+    color: rgb(209, 187, 146);
+    text-decoration: none;
+    border-radius: 10px;
+    width: 900px;
+    margin-bottom: 10px;
+ }
+nav li{
+    margin: 2px;
+    float: left;
+    height: 24px;
+    list-style: none;    
+}
+#contenido ul{
+    list-style: none;
+}
+div{
+    background-color: rgba(250, 235, 215, 0.733);
+    border-radius: 10px; 
+    margin-bottom: 15px;
+    margin-top: 410px;
+    
+    
+}
+.cuadro{
+    width: 200px;
+    height: 350px;
+    background-color: rgb(218, 163, 62);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;          
+}
+.cuadro a{
+    text-decoration: none; 
+    color: #faebd7;
+    padding: 5px 15px 5px 15px;
+    display: block;
+    float: left;  
+}
+.cuadro a img{
+    padding: 7px;
+    float: left;
+    border: 5px solid #ffffff;
+}
+#formulario fieldset{
+   background-color: #faebd7;    
+}
+footer{
+    background-color: #47320a;
+    color: rgb(209, 187, 146);
+    height: 200px;
+    width: 100%;
+    display: inline-block;       
+}
+footer section{
+    padding-right: 10px;
+    height: 200px;
+    width: 30%;
+    float: left;
+}
+footer a{
+    color: rgb(209, 187, 146);
+    text-decoration-line: none;
+}
